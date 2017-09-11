@@ -156,7 +156,6 @@ def calc
           else
             puts "invalid input"
           end
-          break
         end
 
         case operator2
@@ -172,6 +171,9 @@ def calc
         case operator3
         when :+ then puts sum2 + operand4
         when :- then puts sum2 - operand4
+        when :*
+        when :/
+        when :**
         else
           puts "invalid input"
         end
